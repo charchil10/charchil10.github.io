@@ -110,7 +110,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:kasliwal.c@husky.neu.edu
+      url: "mailto:kasliwal.c@husky.neu.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://charchil10.github.io/"
@@ -122,10 +122,10 @@ author:
       url: "https://www.facebook.com/charchil.kasliwal.9"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/charchil10"
+      url: "https://github.com/charchil10"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: "https://www.instagram.com/charchil_/"
+      url: "https://www.instagram.com/charchil_/"
 
 # Site Footer
 footer:
