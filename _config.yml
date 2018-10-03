@@ -103,8 +103,7 @@ analytics:
 author:
   name             : "Charchil Kasliwal"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Data Fanatic Industrial Engineer. Passionate to solve Business Problems with Data Analytics. <br><br>
-                        Complex SQL, Data-piplines, Machine Learning Models, Data Visualization, Neural Net Deep Learning <br><br> A Die-hard Python Fan"
+  bio              : "I am an Industrial Engineer. Passionate to solve Business Problems with Data Science. <br><br> A Die-hard Python Fan"
   location         : "Boston, MA"
   email            : "kasliwal.c@husky.neu.edu"
   links:
@@ -114,9 +113,9 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://charchil10.github.io/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/charchil10/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/charchil10"
