@@ -102,7 +102,7 @@ analytics:
 # Site Author
 author:
   name             : "Charchil Kasliwal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/pp.jpg"
   bio              : "Data Science Guy. <br>A die-hard Python fan"
   location         : "Boston, MA"
   # email            : "kasliwal.c@husky.neu.edu"
