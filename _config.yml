@@ -103,30 +103,29 @@ analytics:
 author:
   name             : "Charchil Kasliwal"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Data Fanatic Industrial Engineer. Passionately use Data Analytics to solve Business problems. <br>
-                        Complex SQL, Datapiplines, Machine Learning Models, Data Visualization, Insights, Neural Net Deep Learning <br> Die-hard Python Fan"
+  bio              : "I am a Data Fanatic Industrial Engineer. Passionate to solve Business Problems with Data Analytics. <br><br>
+                        Complex SQL, Data-piplines, Machine Learning Models, Data Visualization, Neural Net Deep Learning <br><br> A Die-hard Python Fan"
   location         : "Boston, MA"
   email            : "kasliwal.c@husky.neu.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:kasliwal.c@husky.neu.edu"
+      # url: "mailto:kasliwal.c@husky.neu.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://charchil10.github.io/"
+      # url: "https://charchil10.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://www.facebook.com/charchil.kasliwal.9"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/charchil10"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/charchil_/"
-
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/charchil.kasliwal.9"
 # Site Footer
 footer:
   links:
