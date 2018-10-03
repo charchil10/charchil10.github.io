@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Charchil Kasliwal"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Charchil Kasliwal"
+description              : "Data Science and Analytics Profile"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -101,30 +101,31 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Charchil Kasliwal"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I am a Data Fanatic Industrial Engineer. Passionately use Data Analytics to solve Business problems. <br>
+                        Complex SQL, Datapiplines, Machine Learning Models, Data Visualization, Insights, Neural Net Deep Learning <br> Die-hard Python Fan"
+  location         : "Boston, MA"
+  email            : "kasliwal.c@husky.neu.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:kasliwal.c@husky.neu.edu
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://charchil10.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.facebook.com/charchil.kasliwal.9"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+       url: "https://github.com/charchil10"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+       url: "https://www.instagram.com/charchil_/"
 
 # Site Footer
 footer:
@@ -284,5 +285,17 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
+      share: true
+      related: true
+      
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
       share: true
       related: true
