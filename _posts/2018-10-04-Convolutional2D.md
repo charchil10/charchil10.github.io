@@ -6,7 +6,7 @@ header:
   image: "images/convolutional2d/machine_learning_by_tags.jpg"
 excerpt: "General Purpose audio tagging, Nueral Net, Data Science"
 ---
-{% highlight python %}
+
 <h1><center>Can you guess the intrument by the sound?</center></h1>
 
 <h4> <center> Well, Not anymore! In the world of AI we have computers to do so.  Atleast, Fourty One of those covered here!</center><h4>
@@ -14,36 +14,37 @@ excerpt: "General Purpose audio tagging, Nueral Net, Data Science"
 ---
 <h4><center> As usual lets start by importing some commonly used libraries of python.</center></h4>
 
+Python code block:
 
 ```python
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import scipy
-%matplotlib inline
+	import numpy as np
+	import pandas as pd
+	import matplotlib.pyplot as plt
+	import seaborn as sns
+	import scipy
+	%matplotlib inline
 ```
 
 ### We'll need the Audio files to train our PC along with the labels
 
 Thanks to Freesound, Creative Commons and Google's AudioSet Ontology.
 
-
+Python code block:
 ```python
-# Using Pandas we'll load the csv files
-train = pd.read_csv('train.csv')
-test = pd.read_csv('test_post_competition.csv')
+	# Using Pandas we'll load the csv files
+	train = pd.read_csv('train.csv')
+	test = pd.read_csv('test_post_competition.csv')
 
-test = test[test['label']!= 'None'].head(50)                                   # using only rows with available label
-test = test.reset_index(drop = True)                                           # reset index 
-test.drop(['usage', 'freesound_id', 'license'], axis = 1, inplace =True)       # unnecessary columns
+	test = test[test['label']!= 'None'].head(50)                                   # using only rows with available label
+	test = test.reset_index(drop = True)                                           # reset index 
+	test.drop(['usage', 'freesound_id', 'license'], axis = 1, inplace =True)       # unnecessary columns
 ```
 
 #### Lets have a look of first 8 rows of our Dataset.
 
 
 ```python
-train.head(8)
+	train.head(8)
 ```
 
 
@@ -202,7 +203,3 @@ test.head(8)
 </table>
 </div>
 
-
-
-
-{% endhighlight %}
