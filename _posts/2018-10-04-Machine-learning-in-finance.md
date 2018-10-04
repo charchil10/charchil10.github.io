@@ -7,6 +7,23 @@ excerpt: "Machine Learning in Finance with Python, Data Science"
 comments: true
 
 ---
+<style type = "css">
+  .input_area div.highlighter-rouge {
+  background-color: #f7f7f7  !important;
+}
+
+.output_stream, .output_data_text, .output_traceback_line {
+  margin-left: 2% !important;
+  border: none !important;
+  border-radius: 4px !important;
+  background-color: #fafafa !important;
+  box-shadow: none !important;
+}
+
+.output_stream:before, .output_data_text:before, .output_traceback_line:before{
+  content: none !important;
+}
+</style>
   
 ## Lets Start by Importing few Important Libraries
      please make sure to save the notebook on the same directory where you have saved the data. 
@@ -518,7 +535,7 @@ result.plot(x ='observation_date', y = y_col, figsize= (30,20))
 
 
 
-![png](Inital_setup_files/Inital_setup_13_1.png)
+![png](/Inital_setup_files/Inital_setup_13_1.png)
 
 
 
