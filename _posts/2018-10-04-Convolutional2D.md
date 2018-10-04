@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Project: Convolutional2D"
+title: "Sound recognition by Convolutional2D"
 date: 2018-10-04
 tags: [machine learning, keras, tensorflow, neural network]
 header:
@@ -8,8 +8,6 @@ excerpt: "General Purpose audio tagging, Nueral Net, Data Science"
 ---
 
 <h1><center>Can you guess the intrument by the sound?</center></h1>
-
-<img src= "https://c.pxhere.com/photos/f2/e5/orchestra_piano_violin_guitar_balalaika_harp_grand_piano_bow-656063.jpg!d" width= 600 height= 400>
 
 <h4> <center> Well, Not anymore! In the world of AI we have computers to do so.  Atleast, Fourty One of those covered here!</center><h4>
 
@@ -203,3 +201,8 @@ test.head(8)
   </tbody>
 </table>
 </div>
+
+
+{% highlight python %}
+x = ('a', 1, False)
+{% endhighlight %}
