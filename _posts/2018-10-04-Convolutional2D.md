@@ -1,11 +1,11 @@
 ---
-layout: post
-title: "Sound recognition by Convolutional2D"
+title: "Machine Learning in Finance - python"
 date: 2018-10-04
 header:
-  image: "images/convolutional2d/machine_learning_by_tags.jpg"
-excerpt: "General Purpose audio tagging, Nueral Net, Data Science"
+  image: "images/finance/finance_cover.jpg"
+excerpt: "Machine Learning in Finance with Python, Data Science"
 comments: true
+
 ---
   
 ## Lets Start by Importing few Important Libraries
