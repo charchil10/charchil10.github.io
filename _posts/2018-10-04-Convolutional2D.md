@@ -6,7 +6,7 @@ header:
   image: "images/convolutional2d/machine_learning_by_tags.jpg"
 excerpt: "General Purpose audio tagging, Nueral Net, Data Science"
 ---
-
+{% highlight python %}
 <h1><center>Can you guess the intrument by the sound?</center></h1>
 
 <h4> <center> Well, Not anymore! In the world of AI we have computers to do so.  Atleast, Fourty One of those covered here!</center><h4>
@@ -203,6 +203,6 @@ test.head(8)
 </div>
 
 
-{% highlight python %}
-x = ('a', 1, False)
+
+
 {% endhighlight %}
