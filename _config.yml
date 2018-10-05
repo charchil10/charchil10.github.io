@@ -13,7 +13,7 @@ title                    : "Charchil Kasliwal"
 title_separator          : "-"
 name                     : "Charchil Kasliwal"
 description              : "Data Science Portfolio"
-url                      : "https://charchil.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -85,8 +85,8 @@ analytics:
 # Site Author
 author:
   name             : "Charchil Kasliwal"
-  avatar           : "/images/pp.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : ""Data Science Fanatic <br>A die-hard Python fan""
+  avatar           : "/images/pp.jpg"
+  bio              : "Data Science Fanatic <br>A die-hard Python fan"
   location         : "Boston, MA"
   email            : "kasliwal.c@husky.neu.edu"
   uri              :
