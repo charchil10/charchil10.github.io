@@ -1,12 +1,16 @@
 ---
 title: "Machine Learning in Finance - python"
 date: 2018-10-04
+layout: posts
 header:
   image: "images/finance/finance_cover.jpg"
 excerpt: "Machine Learning in Finance with Python, Data Science"
 comments: true
 
 ---
++ [Download Data](https://github.com/charchil10/ML_in_Finance.git)
++ [Jupter Notebook](http://nbviewer.jupyter.org/github/charchil10/ML_in_Finance/blob/7d6791791ef79e11a16771c40f26429bd38bdaf4/Inital_setup.ipynb)
+
 ## Lets Start by Importing few Important Libraries
      please make sure to save the notebook on the same directory where you have saved the data. 
    ### Enjoy! 
@@ -29,8 +33,6 @@ warnings.filterwarnings('ignore')
     Run following kernel to get file import hassel free working
    ### Enjoy!
 
-+ [Data Github](https://github.com/charchil10/ML_in_Finance.git)
-+ [Jupter Notebook](http://nbviewer.jupyter.org/github/charchil10/ML_in_Finance/blob/7d6791791ef79e11a16771c40f26429bd38bdaf4/Inital_setup.ipynb)
 
 ```python
 from pathlib import Path
