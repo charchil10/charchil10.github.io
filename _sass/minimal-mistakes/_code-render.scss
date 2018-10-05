@@ -9,9 +9,10 @@
   border-radius: 4px !important;
   background-color: #fafafa !important;
   box-shadow: none !important;
-  color: grey;
+  color: black;
 }
 
 .output_stream:before, .output_data_text:before, .output_traceback_line:before{
   content: none !important;
+  border: none
 }
