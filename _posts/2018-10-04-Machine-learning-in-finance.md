@@ -12,8 +12,8 @@ comments: true
 + [Jupter Notebook](http://nbviewer.jupyter.org/github/charchil10/ML_in_Finance/blob/7d6791791ef79e11a16771c40f26429bd38bdaf4/Inital_setup.ipynb)
 
 ## Lets Start by Importing few Important Libraries
-     please make sure to save the notebook on the same directory where you have saved the data. 
-   ### Enjoy! 
+please make sure to save the notebook on the same directory where you have saved the data. 
+### Enjoy! 
 
 
 ```python
@@ -29,9 +29,9 @@ warnings.filterwarnings('ignore')
 ```
 
 ## Set up jupyter notebook
-    Extract the repositories from git
-    Run following kernel to get file import hassel free working
-   ### Enjoy!
+Extract the repositories from git
+Run following kernel to get file import hassel free working
+#### Enjoy!
 
 
 ```python
@@ -59,7 +59,7 @@ onlyfiles
 
 
 ## Example data from the exel, uncleaned
-    First few lines contains the description about the data, which we don't need for our analysis. 
+First few lines contains the description about the data, which we don't need for our analysis. 
 
 
 ```python
@@ -176,15 +176,15 @@ file_1.head(15)
 
 ## Data Import and Cleaning
     
-    Using a For loop to find all the excel files
-    Each loop does following:
-        1. Import the file
-        2. Remove the unwanted description.
-        3. Remove NAs
-        4. Reset Index
-        5. Rename the column
-        6. Remove records with interest rate = 0 (mostly Sunday and public holidays)
-        7. Convert date from str to datetime
+Using a For loop to find all the excel files
+Each loop does following:
+	1. Import the file
+	2. Remove the unwanted description.
+	3. Remove NAs
+	4. Reset Index
+	5. Rename the column
+	6. Remove records with interest rate = 0 (mostly Sunday and public holidays)
+	7. Convert date from str to datetime
 
 
 
@@ -221,9 +221,9 @@ for j in files_xls:
 
 ---
 ## Merge columns from all the DataFrames
-    
-    Using Pandas.merge(), inner join on date field 
-    Using reduce fuction, inner join all seven Dataframes in single line of code, 
+
+Using Pandas.merge(), inner join on date field 
+Using reduce fuction, inner join all seven Dataframes in single line of code, 
 
 
 ```python
@@ -438,20 +438,19 @@ result.tail(15)
 
 ---
 ## Plot Interactive Visualizations
-    
-    -for installation
-        $ pip install plotly == 2.7.0 
-            or
-        $ pip install plotly --upgrade
-        
-    Using plotly for python,
-        use mouse pointer to see the exact tooltip values
-        Enjoy the zoom by drawing a square to part of the graph to look closely. 
-        
-   ### Enjoy!
-   
-       Future version will have a drop down filters
-    
+
+-for installation
+	$ pip install plotly == 2.7.0 
+
+	
+Using plotly for python,
+	use mouse pointer to see the exact tooltip values
+	Enjoy the zoom by drawing a square to part of the graph to look closely. 
+	
+#### Enjoy!
+
+Future version will have a drop down filters
+
 
 
 ```python
@@ -469,7 +468,7 @@ result.iplot(kind='scatter',x='observation_date',y= y_col, size=25)
 ```
 
 ### If plotly doesn't work
- Using matplotlib plot()
+Using matplotlib plot()
 
 
 ```python
@@ -486,8 +485,4 @@ result.plot(x ='observation_date', y = y_col, figsize= (30,20))
 
 ![png](/images/2018-10-05-Machine_learning_Finance_13_1.png)
 
-
-
-```python
-
-```
+##Still In process...
