@@ -1,5 +1,6 @@
 .input_area div.highlighter-rouge {
   background-color: #f7f7f7  !important;
+  border: none !important;
 }
 
 .output_stream, .output_data_text, .output_traceback_line {
@@ -8,6 +9,7 @@
   border-radius: 4px !important;
   background-color: #fafafa !important;
   box-shadow: none !important;
+  color: grey;
 }
 
 .output_stream:before, .output_data_text:before, .output_traceback_line:before{
