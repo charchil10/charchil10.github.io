@@ -440,13 +440,13 @@ result.tail(15)
 ## Plot Interactive Visualizations
 
 -for installation
-	$ pip install plotly == 2.7.0 
+$ pip install plotly == 2.7.0 
 
-	
+
 Using plotly for python,
-	use mouse pointer to see the exact tooltip values
-	Enjoy the zoom by drawing a square to part of the graph to look closely. 
-	
+use mouse pointer to see the exact tooltip values
+Enjoy the zoom by drawing a square to part of the graph to look closely. 
+
 #### Enjoy!
 
 Future version will have a drop down filters
