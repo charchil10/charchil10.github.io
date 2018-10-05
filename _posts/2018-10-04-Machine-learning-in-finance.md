@@ -29,8 +29,8 @@ warnings.filterwarnings('ignore')
 ```
 
 ## Set up jupyter notebook
-Extract the repositories from git
-Run following kernel to get file import hassel free working
+Extract the repositories from git <br>
+Run following kernel to get file import hassel free working <br>
 #### Enjoy!
 
 
@@ -48,13 +48,13 @@ onlyfiles
 
 
 
-    ['DGS1.xls',
-     'DGS10.xls',
-     'DGS2.xls',
-     'DGS3.xls',
-     'DGS30.xls',
-     'DGS3MO.xls',
-     'DGS5.xls']
+['DGS1.xls',
+ 'DGS10.xls',
+ 'DGS2.xls',
+ 'DGS3.xls',
+ 'DGS30.xls',
+ 'DGS3MO.xls',
+ 'DGS5.xls']
 
 
 
@@ -176,15 +176,15 @@ file_1.head(15)
 
 ## Data Import and Cleaning
     
-Using a For loop to find all the excel files
-Each loop does following:
-	1. Import the file
-	2. Remove the unwanted description.
-	3. Remove NAs
-	4. Reset Index
-	5. Rename the column
-	6. Remove records with interest rate = 0 (mostly Sunday and public holidays)
-	7. Convert date from str to datetime
+Using a For loop to find all the excel files <br>
+Each loop does following:<br>
+1. Import the file <br>
+2. Remove the unwanted description.<br>
+3. Remove NAs <br>
+4. Reset Index <br>
+5. Rename the column <br>
+6. Remove records with interest rate = 0 (mostly Sunday and public holidays) <br>
+7. Convert date from str to datetime <br>
 
 
 
@@ -439,7 +439,7 @@ result.tail(15)
 ---
 ## Plot Interactive Visualizations
 
--for installation
+- for installation <br>
 $ pip install plotly == 2.7.0 
 
 
@@ -478,11 +478,11 @@ result.plot(x ='observation_date', y = y_col, figsize= (30,20))
 
 
 
-    <matplotlib.axes._subplots.AxesSubplot at 0x2188f0d9630>
+<matplotlib.axes._subplots.AxesSubplot at 0x2188f0d9630>
 
 
 
 
 ![png](/images/2018-10-05-Machine_learning_Finance_13_1.png)
 
-##Still In process...
+## This post is still In process...
