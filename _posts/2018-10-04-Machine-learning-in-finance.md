@@ -6,7 +6,7 @@ header:
   image: "images/finance/finance_cover.jpg"
 excerpt: "Machine Learning in Finance with Python, Data Science"
 comments: true
-
+toc: true
 ---
 + [Download Data](https://github.com/charchil10/ML_in_Finance.git)
 + [Jupter Notebook](http://nbviewer.jupyter.org/github/charchil10/ML_in_Finance/blob/7d6791791ef79e11a16771c40f26429bd38bdaf4/Inital_setup.ipynb)
