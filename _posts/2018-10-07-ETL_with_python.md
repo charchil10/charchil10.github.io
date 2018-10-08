@@ -3,7 +3,7 @@ title: "Extract-Transform-Load (ETL) with Python"
 date: 2018-10-07
 layout: posts
 header:
-  image: "images/ETL-python/ETL-Process.jpg"
+  overlay_image: "images/ETL-python/ETL-Process.jpg"
 excerpt: " Read, Clean and Load bunch of csv files to MySQL with Python "
 comments: true
 toc: true
