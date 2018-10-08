@@ -2,10 +2,7 @@
 title: "About"
 permalink: /about/
 header: 
-  image: "/images/about_image.JPG"
-  video: 
-    id: mLWZXRTTwz4
-	provider: youtube
+  image: "/images/about_image1.JPG"
 ---
 Industrial Engineering Grad Student with a Data Science concentration. 
 
