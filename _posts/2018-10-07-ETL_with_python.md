@@ -4,7 +4,7 @@ date: 2018-10-07
 layout: posts
 header:
   overlay_image: "images/ETL-python/ETL-Process1.jpg"
-excerpt: " Read, Clean and Load bunch of csv files to MySQL with Python "
+excerpt: " Read, Clean, Create Schema and Load bunch of csv files to MySQL with Python "
 comments: true
 toc: true
 ---
@@ -27,8 +27,9 @@ Before uploading the data in mysql I would want to perform some data quality che
  - perform data cleaning tasks on each file
  - load dataframe in mysql
  - clean memory after each load
-    
 
++ [google Drive](https://drive.google.com/drive/folders/1jvgC0aWyu5r26lcZ8IplHVpX63XLG0FN?usp=sharing) 
++ [github jupyter Notebook](https://github.com/charchil10/ETL-with-Python/blob/master/ETL_with_python_new.ipynb)
 ---
 First Import following libraries
 

@@ -3,7 +3,7 @@ title: "Machine Learning in Finance - python"
 date: 2018-10-04
 layout: posts
 header:
-  image: "images/finance/finance_cover.jpg"
+  overlay_image: "images/finance/finance_cover.jpg"
 excerpt: "Machine Learning in Finance with Python, Data Science"
 comments: true
 toc: true
