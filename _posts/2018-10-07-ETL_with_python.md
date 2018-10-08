@@ -4,14 +4,12 @@ date: 2018-10-07
 layout: posts
 header:
   image: "images/ETL-python/ETL-Process.jpg"
-excerpt: "ETL with python"
+excerpt: " Read, Clean and Load bunch of csv files to MySQL with Python "
 comments: true
 toc: true
 ---
 
-<h1><center>Create schema and load data in MySQL using python.</center></h1>
-
-## Performming data pipeline / ETL using python.
+<h2><center>Create schema and load data in MySQL using python.</center></h2>
 
 I wanted to create a staging area in mysql to build Datawarehouse from bunch of csv files.
 <br>
@@ -45,14 +43,6 @@ from IPython.display import Image
 ```
 
 ## About data:
-
-### Summary 
-<br>
-To improve provider and supplier enrollment data sharing and transparency, CMS is making publically available a subset of Provider Enrollment, Chain, and Ownership System (PECOS) data. Through a series of files, this release will make key provider and supplier data available for use by the healthcare community for research and to increase awareness in the provider and supplier community about enrollment information on file with CMS. These files will provide a clear and transparent way for providers, suppliers, state Medicaid programs, private payers, and any other interested individual or organization to leverage Medicare provider enrollment data.<br>
-<br>
-The long-term goal of this initiative is to continue to expand data elements available in the files, and eventually consolidate other existing public lists, such as the Ordering and Referring File, Part D Prescribing File, and Revalidation Lists.
-
-<br>
 
 ### Background
 
@@ -375,7 +365,7 @@ lets check that:
 print('Is there a column with unique values in entire dataFrame? : ', len(example_df) in info_df['unique_records'])
 ```
 
-    Is there a column with unique values in entire dataFrame? :  False
+Is there a column with unique values in entire dataFrame? :  False
     
 
 
@@ -460,7 +450,7 @@ example_df.describe().T
 print('Total rows repeating is/are', sum(example_df.duplicated()))
 ```
 
-    Total rows repeating is/are 0
+Total rows repeating is/are 0
     
 
 ## Conclusion from data Quality Check
@@ -562,7 +552,7 @@ create_sql(engine, df= example_df)
 ```
 
     
-     CREATE TABLE IF NOT EXISTS provider(key_pk INT AUTO_INCREMENT PRIMARY KEY, GroupPACID BIGINT, GroupEnrollmentID TEXT, GroupLegal_BusinessName TEXT, GroupStateCode TEXT, GroupDueDate TEXT, GroupReassignmentsandPhysicianAssistants TEXT, RecordType TEXT, IndividualEnrollmentID TEXT, IndividualNPI FLOAT, IndividualFirstName TEXT, IndividualLastName TEXT, IndividualStateCode TEXT, IndividualSpecialtyDescription TEXT, IndividualDueDate TEXT, IndividualTotalEmployerAssociations BIGINT) 
+CREATE TABLE IF NOT EXISTS provider(key_pk INT AUTO_INCREMENT PRIMARY KEY, GroupPACID BIGINT, GroupEnrollmentID TEXT, GroupLegal_BusinessName TEXT, GroupStateCode TEXT, GroupDueDate TEXT, GroupReassignmentsandPhysicianAssistants TEXT, RecordType TEXT, IndividualEnrollmentID TEXT, IndividualNPI FLOAT, IndividualFirstName TEXT, IndividualLastName TEXT, IndividualStateCode TEXT, IndividualSpecialtyDescription TEXT, IndividualDueDate TEXT, IndividualTotalEmployerAssociations BIGINT) 
     
     
 
@@ -636,7 +626,7 @@ load_data_mysql(dir_data=dir_data)
 print("--- %s seconds ---" % (time.time() - start_time))
 ```
 
-    --- 133.69091987609863 seconds ---
+--- 133.69091987609863 seconds ---
     
 
 #### So my laptop with 12 GB ram took 133 seconds to read clean and upload all the data to MySQL
