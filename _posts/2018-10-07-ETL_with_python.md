@@ -9,7 +9,7 @@ comments: true
 toc: true
 ---
 
-<h2><center>Create schema and load data in MySQL using python.</center></h2>
+<h2>Create schema and load data in MySQL using python</h2>
 
 I wanted to create a staging area in mysql to build Datawarehouse from bunch of csv files.
 <br>
@@ -632,3 +632,5 @@ print("--- %s seconds ---" % (time.time() - start_time))
 #### So my laptop with 12 GB ram took 133 seconds to read clean and upload all the data to MySQL
 #### Data is 450 MBs
 #### Total rows loaded is 2,288,756
+
+## This post is still in progress...
