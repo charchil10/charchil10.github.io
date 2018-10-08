@@ -4,7 +4,7 @@ date: 2018-10-04
 layout: posts
 header:
   overlay_image: "images/finance/finance_cover.jpg"
-excerpt: "Machine Learning in Finance with Python, Data Science"
+excerpt: "Implement Machine learning models to predict interest rates of Bonds from scratch"
 comments: true
 toc: true
 ---
