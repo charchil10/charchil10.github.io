@@ -80,7 +80,6 @@ example_df.head(6)
 <style scoped>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
-		overflow-x: scroll;
     }
 
     .dataframe tbody tr th {
@@ -91,7 +90,7 @@ example_df.head(6)
         text-align: right;
     }
 </style>
-<table border="1" class="dataframe">
+<table border="1" class="tables">
   <thead>
     <tr style="text-align: right;">
       <th></th>
