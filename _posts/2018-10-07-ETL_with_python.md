@@ -28,9 +28,11 @@ Before uploading the data in mysql I would want to perform some data quality che
  - load dataframe in mysql
  - clean memory after each load
 
-+ [google Drive](https://drive.google.com/drive/folders/1jvgC0aWyu5r26lcZ8IplHVpX63XLG0FN?usp=sharing) 
++ [google Drive](https://drive.google.com/drive/folders/1jvgC0aWyu5r26lcZ8IplHVpX63XLG0FN?usp=sharing) <br>
 + [github jupyter Notebook](https://github.com/charchil10/ETL-with-Python/blob/master/ETL_with_python_new.ipynb)
+
 ---
+
 First Import following libraries
 
 
