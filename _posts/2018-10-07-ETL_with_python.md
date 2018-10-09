@@ -8,7 +8,7 @@ excerpt: " Read, Clean, Create Schema and Load bunch of csv files to MySQL with 
 comments: true
 toc: true
 ---
-
+{% include toc %}
 <h2>Create schema and load data in MySQL using python</h2>
 
 I wanted to create a staging area in mysql to build Datawarehouse from bunch of csv files.
