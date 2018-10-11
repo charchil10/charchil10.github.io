@@ -635,20 +635,20 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 Now if we try to do the same task using Microsoft SSIS Package. 
 We'll need to follow these steps:
-1. Create a schema manually, since it was a single table I wrote SQL script. 
+- Create a schema manually, since it was a single table I wrote SQL script. 
 
 {% include figure image_path="/images/ETL-python/sql_script.JPG" caption="SQL script to create new table at the destination" %}
 
-2. Create a data flow. Set up a flat file source connection parameter and destination to empty OLE DB we created in step 1. Remember to manually cselect data type as unicode or non-unicode STR for each column. 
+- Create a data flow. Set up a flat file source connection parameter and destination to empty OLE DB we created in step 1. Remember to manually cselect data type as unicode or non-unicode STR for each column. 
 
 {% include figure image_path="/images/ETL-python/in_each_loop.png" caption="Inside each for loop" %}
 
-3. We need to then set up variable name and folder name where our for loop will take the source data from. Which is again lot of manual work.
+- We need to then set up variable name and folder name where our for loop will take the source data from. Which is again lot of manual work.
 
 {% include figure image_path="/images/ETL-python/using_ssis.png" caption="For Each Loop in SSIS" %}
 
-4. Count the total rows in DB which should match. 
-{% include figure image_path="/images/ETL-python/time.png" caption="For Each Loop in SSIS" %}
+- Count the total rows in DB which should match. 
+{% include figure image_path="/images/ETL-python/time.png" caption="Total time from SSIS logs" %}
 ---
 ## Conclusion
 
@@ -656,3 +656,6 @@ We'll need to follow these steps:
 #### There's a significant difference in the performance. 
 #### So with python it took 133 seconds ~ 2 minutes to read clean and upload all the data to MySQL, whereas, in SSIS it took 8 minutes.  
 #### Python is 400% faster than ETL tool. With reusable codes and completely automated. That's why I love Python.
+
+
+--- This post ends here---
