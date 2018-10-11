@@ -631,7 +631,7 @@ print("--- %s seconds ---" % (time.time() - start_time))
 
 --- 133.69091987609863 seconds ---
     
-## Compare SSIS to do same tasks
+## Compare SSIS to do the same task
 
 Now if we try to do the same task using Microsoft SSIS Package. 
 We'll need to follow these steps:
@@ -639,23 +639,24 @@ We'll need to follow these steps:
 
 {% include figure image_path="/images/ETL-python/sql_script.JPG" caption="SQL script to create new table at the destination" %}
 
-- Create a data flow. Set up a flat file source connection parameter and destination to empty OLE DB we created in step 1. Remember to manually cselect data type as unicode or non-unicode STR for each column. 
+- Create a data flow. Set up a flat file source connection parameter and destination to empty OLE DB we created in step 1. 
+ - Remember to manually select data type as unicode or non-unicode STR for each column. 
 
-{% include figure image_path="/images/ETL-python/in_each_loop.png" caption="Inside each for loop" %}
+{% include figure image_path="/images/ETL-python/in_each_loop.png" caption="Inner mapping of For-Each loop" %}
 
 - We need to then set up variable name and folder name where our for loop will take the source data from. Which is again lot of manual work.
 
-{% include figure image_path="/images/ETL-python/using_ssis.png" caption="For Each Loop in SSIS" %}
+{% include figure image_path="/images/ETL-python/using_ssis.png" caption="For-Each Loop in SSIS" %}
 
 - Count the total rows in DB which should match. 
-{% include figure image_path="/images/ETL-python/time.png" caption="Total time from SSIS logs" %}
+{% include figure image_path="/images/ETL-python/time.png" caption="Total time for the task - SSIS logs" %}
 ---
 ## Conclusion
 
-#### Woah!! 
-#### There's a significant difference in the performance. 
-#### So with python it took 133 seconds ~ 2 minutes to read clean and upload all the data to MySQL, whereas, in SSIS it took 8 minutes.  
-#### Python is 400% faster than ETL tool. With reusable codes and completely automated. That's why I love Python.
+**Woah!!** <br> 
+There's a significant difference in the performance.<br> 
+With python it took **133 seconds ~ 2 minutes** to read, clean and upload, whereas, in SSIS it took **8 minutes**.<br>
+Python is **400%** faster here, with reusable code and completely automated. **That's why I love Python.** <br>
 
-
+<br>
 --- This post ends here---
